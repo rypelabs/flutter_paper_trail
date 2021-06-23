@@ -55,7 +55,7 @@ public class SwiftFlutterPaperTrailPlugin: NSObject, FlutterPlugin {
             return
         }
         let paperTrailLogger = RMPaperTrailLogger.sharedInstance()!
-        paperTrailLogger.programName = userId + "--on--" + SwiftFlutterPaperTrailPlugin.programName!
+        paperTrailLogger.programName = userId
         result("Logger updated")
     }
     
