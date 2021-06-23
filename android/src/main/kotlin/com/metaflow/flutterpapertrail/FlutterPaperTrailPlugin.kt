@@ -54,7 +54,7 @@ class FlutterPaperTrailPlugin : MethodCallHandler {
             result.error("Cannot call configure user before init logger", "", null)
             return
         }
-        _treeBuilder!!.program(userId + "--on--" + _programName!!)
+        _treeBuilder!!.program(userId)
 
         Timber.uproot(_tree!!)
         _tree = _treeBuilder!!.build()
