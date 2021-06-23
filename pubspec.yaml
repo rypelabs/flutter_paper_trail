@@ -1,12 +1,14 @@
 name: flutter_paper_trail
 description: A flutter plugin for PaperTrail logging service
-version: 0.0.7
+version: 1.0.0
 authors:
  - Lumen Team <support@lumen.me>
 homepage: https://github.com/metaflowltd/flutter_paper_trail
 
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
 dependencies:
-  meta: "^1.0.5"
   flutter:
     sdk: flutter
 
@@ -18,8 +20,3 @@ flutter:
   plugin:
     androidPackage: com.metaflow.flutterpapertrail
     pluginClass: FlutterPaperTrailPlugin
-
-
-environment:
-  sdk: ">=2.0.0-dev.28.0 <3.0.0"
-  flutter: ">=0.1.4 <2.0.0"
